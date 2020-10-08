@@ -30,18 +30,11 @@ const App = () => {
       }
 
     })
-    
+
     return  () => {
       unsubscribeFromAuth();
     }
   },[])
-
-  useEffect(()=>{               // instead of callback after userRef.onSnapshot()
-    if(currentUser){
-      console.log('currrent user =', currentUser)
-    }
-  },[currentUser])
-
 
   return (
     <div>

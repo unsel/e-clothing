@@ -72,7 +72,7 @@ const SignUp = () => {
                   type='password'
                   name='password'
                   value={password}
-                  onChange = {handleChange}
+                  handleChange = {handleChange}
                   label='Password'
                   required
                   />
@@ -80,7 +80,7 @@ const SignUp = () => {
                   type='password'
                   name='confirmPassword'
                   value={confirmPassword}
-                  onChange = {handleChange}
+                  handleChange = {handleChange}
                   label='Confirm Password'
                   required
                   />
