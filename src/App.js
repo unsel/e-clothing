@@ -15,8 +15,9 @@ const App = props => {
   const {setCurrentUser} = props;
 
   var unsubscribeFromAuth=null;
-
+  
   useEffect(()=> {
+    // eslint-disable-next-line
     unsubscribeFromAuth= auth.onAuthStateChanged(async userAuth => {
       if (userAuth){
         const userRef = await createUserProfileDocument(userAuth);

@@ -24,8 +24,8 @@ const SignIn = () => {
     }
     const handleChange = (event) => {
         const {value,name} = event.target;
-        if (name == 'email')   setEmail(value);
-        if (name == 'password') setPassword(value);
+        if (name === 'email')   setEmail(value);
+        if (name === 'password') setPassword(value);
     }
 
     return (

@@ -6,9 +6,8 @@ import CollectionPreview from '../../components/collection-preview/collection-pr
 
 const ShopPage = () => {
 
+    // eslint-disable-next-line
     const [collections,setCollections] = useState(SHOP_DATA)
-
-
 
     return (
         <div className='shop-page'>

@@ -5,7 +5,8 @@ import MenuItem from '../menu-item/menu-item.component'
 import './directory.styles.scss';
 
 const Directory = () => {
-
+  
+    // eslint-disable-next-line
     const [sections,setSections] = useState([
         {
             title: 'hats',
